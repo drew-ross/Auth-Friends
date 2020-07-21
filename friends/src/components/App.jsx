@@ -4,13 +4,14 @@ import { Route } from 'react-router';
 
 import FriendList from './FriendList';
 import Login from './Login';
+import PrivateRoute from './PrivateRoute';
 
 const App = () => {
   return (
     <div className="App">
       <HeaderNav />
       <Route path='/login' component={Login} />
-      <Route path='/friends' component={FriendList} />
+      <PrivateRoute path='/friends' component={FriendList} />
     </div>
   );
 };
