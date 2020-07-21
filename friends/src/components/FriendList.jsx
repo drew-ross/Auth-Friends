@@ -24,7 +24,12 @@ const FriendList = props => {
       <h2>Friends</h2>
       <CreateFriendForm setFriends={setFriends}/>
       {friends &&
-        friends.map(friend => <Friend friend={friend} />)
+        friends.map(friend => 
+          <Friend 
+          key={friend.id} 
+          friend={friend} 
+          setFriends={setFriends}
+          />)
       }
     </div>
   );
