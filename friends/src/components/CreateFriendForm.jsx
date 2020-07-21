@@ -40,7 +40,7 @@ const CreateFriendForm = ( {setFriends} ) => {
   }
 
   return (
-    <div className='CreateFriendForm'>
+    <div className='CreateFriendForm Form'>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Name</label>
         <input

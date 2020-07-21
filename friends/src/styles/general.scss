@@ -1,11 +1,23 @@
 h1 {
   font-size: 4rem;
+  color: white;
+  font-family: $font-header;
 }
 
 h2 {
   font-size: 3rem;
+  color: white;
+  font-family: $font-header;
 }
 
-p, input, button, a, label {
+a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  font-family: $font-content;
+}
+
+p, input, button, label {
   font-size: 2rem;
+  font-family: $font-content;
 }
